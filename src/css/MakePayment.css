@@ -1,0 +1,63 @@
+.makepayment .MuiCardContent-root{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.makepayment__container__image{
+    width: 250px;
+    box-sizing: border-box;
+    float: left;
+    min-height: 107px;
+    object-fit: contain;
+    padding:20px;
+}
+.makepayment__container__info{
+ 
+    padding:20px;
+}
+.makepayment__section{
+    display: flex;
+    padding: 20px;
+    margin: 0 20px;
+    border-bottom: 1px solid lightgray;
+    
+}
+.makepayment__title{
+    flex:0.2;
+}
+.makepayment__details{
+    flex:0.8;
+}
+  
+.makepayment__details > form {
+    max-width: 400px;
+  }
+
+  .makepayment__details > h3 {
+    padding-bottom: 20px;
+  }
+
+
+  .makepayment__details > form > div > button {
+    background: rgb(237, 90, 107);
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    font-weight: bolder;
+    margin-top: 10px;
+    border-color: border-box rgb(237, 90, 107);
+    color: #fff;
+  }
+  .recipecard__price{
+
+    margin-top:5px;
+}
+.recipecard__info{
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.recipecard__title{
+    font-weight: 400;
+}
